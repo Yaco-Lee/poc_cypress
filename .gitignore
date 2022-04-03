@@ -1,3 +1,8 @@
 # Dependency directories
 node_modules/
 jspm_packages/
+
+#Cypress folders
+cypress/report/
+cypress/videos/
+cypress/screenshots/

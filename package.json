@@ -1,0 +1,24 @@
+{
+  "name": "poc_cypress",
+  "version": "1.0.0",
+  "description": "A simple project to demo cypress capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed --config-file=./cypress.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaco-Lee/poc_cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaco-Lee/poc_cypress/issues"
+  },
+  "homepage": "https://github.com/Yaco-Lee/poc_cypress#readme",
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-mochawesome-reporter": "^3.0.0"
+  }
+}
