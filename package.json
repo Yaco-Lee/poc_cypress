@@ -4,7 +4,9 @@
   "description": "A simple project to demo cypress capabilities",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headed --config-file=./cypress.json"
+    "test": "cypress run --headed ",
+    "open:cypress": "cypress open",
+    "smoke":"cypress run --headed --spec cypress/integration/smoke.js"
   },
   "repository": {
     "type": "git",
