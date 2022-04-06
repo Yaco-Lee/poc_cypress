@@ -1,9 +1,14 @@
 {
+    "baseUrl":"https://parabank.parasoft.com",
+    "video": false,
+    "screenshotOnRunFailure": true,
     "reporter": "cypress-mochawesome-reporter",
     "reporterOptions": {
         "reportDir": "./cypress/report",
         "charts": true,
-        "html":true,
-        "reportPageTitle": "custom-title"
+        "reportPageTitle": "cypress_poc_execution",
+        "embeddedScreenshots": true,
+        "saveHtml": true,
+        "saveJson": false
       }
 }
