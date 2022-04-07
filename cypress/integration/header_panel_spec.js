@@ -46,7 +46,7 @@ describe('Left Nav Menu',()=>{
     });
 })
 
-describe.only('Header Nav buttons', ()=>{
+describe('Header Nav buttons', ()=>{
     
     it('Verifies Home button',()=>{
         headerNavigationLinks.homeBtn()

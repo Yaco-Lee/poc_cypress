@@ -1,9 +1,10 @@
 {
-    "reporter": "cypress-mochawesome-reporter",
-    "reporterOptions": {
-        "reportDir": "./cypress/report",
-        "charts": true,
-        "html":true,
-        "reportPageTitle": "custom-title"
-      }
+  "baseUrl":"https://parabank.parasoft.com/parabank",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+      "reportDir": "./cypress/report",
+      "charts": true,
+      "html":true,
+      "reportPageTitle": "custom-title"
+  }
 }
