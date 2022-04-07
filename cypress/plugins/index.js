@@ -25,3 +25,8 @@ module.exports = (on) => {
     await afterRunHook();
   });
 };
+
+module.exports = (on, config) => {
+  // optional: register cypress-grep plugin code
+  require('../../src/plugin')(config)
+};
