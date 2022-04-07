@@ -8,7 +8,7 @@ beforeEach(()=>{
     cy.visit('/')
 })
 
-describe('Left Nav Menu',()=>{
+describe('Left Nav Menu',{tags: '@regression'},()=>{
     
     it('Verifies Solution link',()=>{
         headerNavigationLinks.solutions()
@@ -46,7 +46,7 @@ describe('Left Nav Menu',()=>{
     });
 })
 
-describe('Header Nav buttons', ()=>{
+describe('Header Nav buttons',{tags: '@regression'}, ()=>{
     
     it('Verifies Home button',()=>{
         headerNavigationLinks.homeBtn()

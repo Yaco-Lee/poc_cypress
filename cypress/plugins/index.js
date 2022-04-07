@@ -14,7 +14,7 @@ module.exports = (on) => {
   });
 };
 
-module.exports = (on, config) => {
-  // optional: register cypress-grep plugin code
-  require('../../src/plugin')(config)
-};
+// module.exports = (on, config) => {
+//   // optional: register cypress-grep plugin code
+//   require('../../src/plugin')(config)
+// };

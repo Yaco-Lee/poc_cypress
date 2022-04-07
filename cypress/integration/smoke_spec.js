@@ -4,7 +4,7 @@ beforeEach(()=>{
     cy.visit('/')
 })
 
-describe('Smoke tests',()=>{
+describe('Smoke tests',{tags: '@smoke'},()=>{
 
     it('Check page loads',()=>{
         cy.contains('Customer Login')

@@ -4,9 +4,9 @@
   "description": "A simple project to demo cypress capabilities",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headed ",
+    "regression": "cypress run --headed --env grepTags=@regression",
     "open:cypress": "cypress open",
-    "smoke": "cypress run --headed --spec cypress/integration/smoke.js"
+    "smoke": "cypress run --headed --env grepTags=@smoke"
   },
   "repository": {
     "type": "git",

@@ -8,7 +8,7 @@ beforeEach(()=>{
     cy.visit('/')
 });
 
-describe('Verifies Login section elements ', ()=>{
+describe('Verifies Login section elements ',{tags: '@regression'}, ()=>{
     
     it('Checks login section label',()=>{
         loginSectionElement.loginLabel()
@@ -57,7 +57,7 @@ describe('Verifies Login section elements ', ()=>{
     })
 })
 
-describe('Verifies successful login',()=>{
+describe('Verifies successful login',{tags: '@regression'},()=>{
     it('Checks login works',()=>{
         cy.login('username','password')
         cy.contains('Welcome Guy Incognito')
@@ -65,7 +65,7 @@ describe('Verifies successful login',()=>{
     })
 })
 
-describe('Verifies Logout functionality',()=>{
+describe('Verifies Logout functionality',{tags: '@regression'},()=>{
     it('Checks login works',()=>{
         cy.login('username','password')
         loginSectionElement.logOutBtn().click()
